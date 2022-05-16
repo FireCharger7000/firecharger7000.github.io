@@ -155,35 +155,60 @@ as the topnav */
 
 /**** Media tags for including mobile display */
 
-@media (min-width: 400px) {
-    body {
-      background-color: green;
+@media (max-width: 400px) {
+    .col-1 {
+      flex-basis: 100%;
     }
+    
+    .col-2 {
+      flex-basis: 100%;  
+    }
+    
+    .col-4 {
+      flex-basis: 100%;  
+    }
+    body {
+        background-color: green;
+      }
 }
-
-@media (min-width: 768px) {
-    body {
-      background-color: purple;
+  
+@media (max-width: 768px) {
+    .col-1 {
+      flex-basis: 50%;
     }
+    
+    .col-2 {
+      flex-basis: 100%;  
+    }
+    
+    .col-4 {
+      flex-basis: 100%;  
+    }
+    body {
+        background-color: purple;
+      }
 }
 
 @media (min-width: 992px) {
     body {
-      background-color: orange;
-    }
+        background-color: orange;
+      }
+   
 }
-
-
+  
+  
 @media (min-width: 1200px) {
     body {
-      background-color: pink;
-    }
+        background-color: pink;
+      }
+    
 }
-
-
+  
+  
 @media (min-width: 1400px) {
     body {
-      background-color: red;
-    }
+        background-color: red;
+      }
+   
 }
 
