@@ -212,5 +212,5 @@ as the topnav */
 }
 
 body{
-    background-color: linear-gradient black rgb(63, 0, 0) rgb(43,rgb(77, 50, 0)) rgb(82, 53, 0);
+    background-color: linear-gradient(130deg, black rgb(63, 0, 0),rgb(74, 0, 77), rgb(82, 53, 0));
 }
