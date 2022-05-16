@@ -21,7 +21,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -46,8 +46,8 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #3700ff;
+  color: rgb(0, 0, 0);
 }
 
 .topnav .icon {
