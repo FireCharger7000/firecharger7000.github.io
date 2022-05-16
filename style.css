@@ -123,11 +123,6 @@ as the topnav */
     }
 }
 
-
-body{
-    background-color: black;
-}
-
 .Button1{
     background-image: linear-gradient(130deg, #ec5700, #ff0000);
     color: rgb(0, 0, 0);
