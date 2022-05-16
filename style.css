@@ -183,6 +183,7 @@ as the topnav */
     .col-4 {
       flex-basis: 100%;  
     }
+
     body {
         background-color: rgb(80, 0, 80);
       }
@@ -211,6 +212,8 @@ as the topnav */
    
 }
 
-body{
-    background-color: linear-gradient(130deg, black rgb(63, 0, 0),rgb(74, 0, 77), rgb(82, 53, 0));
+@media (min-width: 769px) {
+    body{
+        background-image: linear-gradient(130deg, black rgb(63, 0, 0),rgb(74, 0, 77), rgb(82, 53, 0));
+    }
 }
