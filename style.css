@@ -200,3 +200,7 @@ as the topnav */
   
 @media (min-width: 1400px) {
 }
+
+.navdrop{
+  font-size: 100%;
+}
