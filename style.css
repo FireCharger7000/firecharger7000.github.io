@@ -66,7 +66,7 @@ body{
 @media screen and (min-width: 1024px) {  
     /* center the contents for screen width bigger than 1024 */
     .topnav .contents {
-      width: 1024px;
+      width: 1124px;
       margin: 0 auto;
     }
 }
@@ -85,7 +85,7 @@ body{
   display: none;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 950px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -93,7 +93,7 @@ body{
     }
 }
   
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 950px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
