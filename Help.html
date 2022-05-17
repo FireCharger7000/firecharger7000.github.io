@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+
+        <div class="contents">
+
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Music.html">Music</a>
+            <a href="Updates.html">Updates</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Help.html" class="active">Help</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            </h1><i class="navdrop">+</i>
+            </a>
+
+        </div>
+    </div>  
+
+    <section style="height: 1000px;">
+
+        <!-- This is a temp block to show that the top nav is fixed -->
+        
+
+    </section>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+
+
+        var elements = document.getElementsByClassName("btn");
+
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].addEventListener('click', btnClicked, false);
+        }
+
+        function btnClicked() {
+            
+            // hide all the pages                
+            for (let element of document.querySelectorAll('.page')) element.classList.remove('show');
+            
+            // show page related to click
+            // By adding and removing a class we can use css transitions here
+            let page = this.getAttribute("data-page");                                
+            document.getElementById(page).classList.add('show');
+        }
+
+    </script>
+
+    <section> <!--This is the section for content-->
+
+    </section>
+
+</body>
