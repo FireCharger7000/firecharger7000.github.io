@@ -1,4 +1,6 @@
-
+html{
+  height: 100%;
+}
 
 /* Styles for the whole website no matter of screen size */
 *{
@@ -7,6 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
     box-sizing: border-box;
+    color: #000000;
 }
 
 body{
