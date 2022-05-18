@@ -31,6 +31,22 @@ body{
     border-radius: 5px;
 }
 
+.p1{
+  font-size: 200%;
+}
+
+.circle-link i {
+  text-align: center;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;  
+  color: #000000;
+  text-decoration: none;
+  background-image: linear-gradient(180deg, #B80090, #66044f);  
+  border-radius: 50%;
+  padding: 5px;  
+}
+
 /* styles for the top navigation and burger menu that shows on a mobile */
 
 .topnav {
