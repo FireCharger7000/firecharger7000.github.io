@@ -146,17 +146,22 @@ footer .circle-link {
 /* because of the fix top bar navigation we need to set the page margin to the same height 
 as the topnav */
 
-.page-contents {  
+.page-contents {
     padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1024px;
 }
-  
+
+.textalign{
+  text-align: left;
+}
+
 .page {
     display: none;
 }
   
 .page.show {
     display: block;
-  
     margin: 0 auto;
     max-width: 1024px;
 }
