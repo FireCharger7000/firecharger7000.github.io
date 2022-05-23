@@ -13,7 +13,7 @@ body{
 }
 
 .Button1{
-    background-image: linear-gradient(180deg, #084F0C, #8ED371);
+    background-color:#8ED371;
     color: rgb(0, 0, 0);
     padding: 10px 10px;
     border: none;
@@ -38,7 +38,7 @@ body{
   width: 40px;  
   color: #000000;
   text-decoration: none;
-  background-image: linear-gradient(180deg, #084F0C, #8ED371);  
+  background-color: #8ED371;  
   border-radius: 50%;
   padding: 5px;  
 }
@@ -92,7 +92,7 @@ body{
 }
 
 .topnav a.active {
-  background-image: linear-gradient(180deg, #084F0C, #8ED371);
+  background-color: #8ED371;
   color: rgb(0, 0, 0);
 }
 
@@ -112,18 +112,6 @@ footer {
 footer .circle-link {
   display: inline-block;  
   margin: 5px;
-}
-
-footer .circle-link i {
-  text-align: center;
-  font-size: 30px;
-  height: 40px;
-  width: 40px;  
-  color: #333333;
-  text-decoration: none;
-  background-color: #FFFFFF;  
-  border-radius: 50%;
-  padding: 5px;  
 }
 
 @media screen and (max-width: 1023px) {
